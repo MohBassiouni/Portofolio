@@ -1,0 +1,150 @@
+body {
+background-image: url(/CSS/Img/code6.jpg); 
+margin: 2;
+padding: 5px;
+background-repeat: no-repeat;
+}
+header {
+  color: floralwhite;
+  text-align: center;
+
+}
+
+.Viewed {
+
+  background:padding-box;
+  background: linear-gradient(
+    6deg,
+    rgba(46, 56, 192, 0.884)19%,
+    rgba(23, 23, 24, 0.527) 79%
+  );
+  color: rgb(175, 202, 224);
+  display:flow-root;
+  transition: 1s;
+border: 1rem;
+border:solid;
+
+border-radius: 10%;
+transform: rotateZ(-2deg);
+
+
+ 
+
+}
+@media only screen and (min-width: 35em){
+  .Landcont {
+      max-width: 100%;
+  }
+}
+
+section {
+  margin: 10px;
+  min-height: 400px;
+  padding: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;}
+  div {
+    max-width: 100%;
+
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    color: gainsboro;
+    font-size: larger;
+  }
+  
+h1{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+  text-decoration:transparent;
+  color: azure;
+  position: relative;
+  border:transparent;
+  border-width: 1px;
+
+}
+
+
+
+.navbar__menu li{
+ 
+  text-align:start;
+  text-decoration: rgb(171, 171, 241);
+  display:block;
+  margin: 5px;
+font-size: 150%;
+padding-left: 8%;
+padding-right: 8%;
+display:inline-table;
+  width: 60px;
+}
+a:hover {
+  transition: 2s;
+text-decoration:underline;
+background-color: rgb(5, 10, 19);
+color: rgb(241, 241, 241);
+border-width: 2px;
+border-radius: 30%;
+border:outset;
+}
+
+
+img {
+  border-radius: 40%;
+  
+
+}
+.flex-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-flow:column;
+    width: 100%;
+    height: 100%;
+
+    /*particles back-ground animation*/
+}
+#particles-js {
+  height: 120rem;
+}
+ 
+
+.page__header {
+  background:linear-gradient(1deg, rgba(68, 106, 211, 0.1)2%, rgba(254, 255, 255, 0.2) 100%);
+      position:initial;
+      top: 1;
+      width: 100%;
+      z-index: 5;
+      opacity: 0.75;
+}
+#Summary{
+  width:75%;
+  font-size:large;
+  color: rgb(171, 226, 230);
+  text-align: left;
+  align-content: left;
+}
+#Contact{
+  width: 70%;
+  color: rgb(170, 217, 245);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+#Experince{
+  width: 75%;
+  color: rgb(189, 225, 241);
+  font-size:large;
+  text-align: left;
+
+}
+
+main {
+  margin: 10vh 1em 10vh;
+}
+.page__header {
+  min-height: 40vh;
+  padding-top: 3em;
+}
